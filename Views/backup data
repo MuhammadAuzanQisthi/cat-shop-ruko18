@@ -1,0 +1,35 @@
+
+      <!-- Demo Accounts -->
+      <div class="or-divider">atau coba akun demo</div>
+      <div class="demo-section">
+        <div class="demo-title">🧪 Akun Demo — Klik untuk isi otomatis</div>
+        <div class="demo-accounts">
+          <button type="button" class="demo-btn"
+                  onclick="fillDemo('owner@pawpaw.id','121212')">
+            <span>👑</span>
+            <div>
+              <div style="font-weight:600;color:var(--surf-800);font-size:11.5px">Owner PawPaw</div>
+              <div style="font-size:10px;color:var(--surf-500)">owner@pawpaw.id</div>
+            </div>
+            <span class="demo-role owner">Owner</span>
+          </button>
+          <button type="button" class="demo-btn"
+                  onclick="fillDemo('staff@pawpaw.id','121212')">
+            <span>🧑‍💼</span>
+            <div>
+              <div style="font-weight:600;color:var(--surf-800);font-size:11.5px">Staff Grooming</div>
+              <div style="font-size:10px;color:var(--surf-500)">staff@pawpaw.id</div>
+            </div>
+            <span class="demo-role staff">Staff</span>
+          </button>
+          <button type="button" class="demo-btn"
+                  onclick="fillDemo('budi@demo.com','121212')">
+            <span>🛒</span>
+            <div>
+              <div style="font-weight:600;color:var(--surf-800);font-size:11.5px">Budi Santoso</div>
+              <div style="font-size:10px;color:var(--surf-500)">budi@demo.com</div>
+            </div>
+            <span class="demo-role pelanggan">Pelanggan</span>
+          </button>
+        </div>
+      </div>
